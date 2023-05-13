@@ -1,5 +1,6 @@
 import React from 'react'
-import { SafeAreaView, ScrollView, Text, View } from 'react-native'
+import { SafeAreaView, ScrollView, View } from 'react-native'
+import FlatCards from './components/FlatCards'
 
 function AwesomeApp () {
 
@@ -7,7 +8,7 @@ function AwesomeApp () {
         <SafeAreaView>
             <ScrollView>
              <View>
-                <Text> textInComponent </Text>
+                <FlatCards/>
              </View>
             </ScrollView>
       </SafeAreaView>
