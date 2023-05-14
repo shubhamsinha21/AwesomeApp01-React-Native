@@ -73,7 +73,12 @@ const styles = StyleSheet.create( {
         flexShrink:1
     },
     cardFooter:{
-        color:'white'
+        fontSize:16,
+        color:'black',
+        backgroundColor:'white',
+        paddingHorizontal:20,
+        paddingVertical:6,
+        borderRadius:6,
     }
 
 
