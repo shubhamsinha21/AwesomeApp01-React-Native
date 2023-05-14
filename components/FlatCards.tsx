@@ -3,7 +3,7 @@ import {StyleSheet, Text, View } from "react-native";
 function FlatCards() {
     return(
         <View>
-            <Text style={styles.heading}> FlatCards</Text>
+            <Text style={styles.heading}> Flat Cards</Text>
             <View style={styles.container}>
                     {/* more tan one style can be achieved using an array */}
                 <View style={[styles.card, styles.cardOne]}>
@@ -24,7 +24,8 @@ const styles = StyleSheet.create( {
     heading : {
         fontSize:24,
         fontWeight:'bold',
-        paddingHorizontal:8
+        paddingHorizontal:8,
+        color:'white'
     },
     container:{
         flex:1,
