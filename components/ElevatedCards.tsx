@@ -49,11 +49,10 @@ const styles = StyleSheet.create({
     },
     cardElevated:{
         backgroundColor:'orange',
-        // shadowOffset:{
-        //     width:1,
-        //     height:1
-        // },
-        // shadowColor:'black'
+        shadowOffset:{
+            width:1,
+            height:1
+        }
     }
 })
 export default ElevatedCards;
