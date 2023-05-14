@@ -25,7 +25,7 @@ import { StyleSheet, View, Text, Image } from 'react-native'
 }
 const styles = StyleSheet.create( {
     headingText:{
-        fontSize:24,
+        fontSize:18,
         fontWeight:'bold',
         paddingHorizontal:8,
         color:'white'
@@ -41,7 +41,6 @@ const styles = StyleSheet.create( {
         width:360,
         height:360,
         borderRadius:6,
-
     },
     cardBody:{
         flex:1,
@@ -49,7 +48,7 @@ const styles = StyleSheet.create( {
         margin:8
     },
     cardElevated:{
-        backgroundColor:'#ffffff',
+        backgroundColor:'#2ecc71',
         elevation:3,
         shadowOffset:{
             width:1,
@@ -63,12 +62,12 @@ const styles = StyleSheet.create( {
         marginBottom:4
     },
     cardLabel:{
-        color:'orange',
+        color:'white',
         fontSize:16,
         marginBottom:4
     },
     cardDescription:{
-        color:'pink',
+        color:'white',
         fontSize:14,
         marginBottom:12,
         flexShrink:1

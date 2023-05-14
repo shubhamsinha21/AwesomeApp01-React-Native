@@ -30,7 +30,7 @@ function ElevatedCards() {
 }
 const styles = StyleSheet.create({
     heading:{
-        fontSize:24,
+        fontSize:18,
         fontWeight:'bold',
         paddingHorizontal:8,
         color:'white'
